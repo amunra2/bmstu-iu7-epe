@@ -25,11 +25,12 @@ class Window(QMainWindow):
 
     
     # Исследовать: RELY, DATA, CPLX
+    # Проект: промежуточный
     # Сделать для разных: SCED (normal, high, high-high)
     def task(self):
         drivers = DRIVERS_VALUES
-        kloc = 25
-        mode = PROJECT_MODES["organic"]
+        kloc = 430
+        mode = PROJECT_MODES["semidetached"]
         results = []
 
         for SCEDind in range(NORMAL, HIGH_HIGH + 1):
