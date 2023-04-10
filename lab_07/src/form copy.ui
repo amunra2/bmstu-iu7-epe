@@ -1,0 +1,1526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1386</width>
+    <height>736</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout" stretch="2,5">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QGroupBox" name="groupBox">
+          <property name="font">
+           <font>
+            <pointsize>16</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="title">
+           <string>Атрибуты программного продукта</string>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_5">
+           <property name="spacing">
+            <number>1</number>
+           </property>
+           <property name="leftMargin">
+            <number>1</number>
+           </property>
+           <property name="topMargin">
+            <number>1</number>
+           </property>
+           <property name="rightMargin">
+            <number>1</number>
+           </property>
+           <property name="bottomMargin">
+            <number>1</number>
+           </property>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_8" stretch="1,5">
+             <item>
+              <widget class="QLabel" name="RELYlabel">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                 <weight>50</weight>
+                 <italic>true</italic>
+                 <bold>false</bold>
+                 <underline>false</underline>
+                 <strikeout>false</strikeout>
+                </font>
+               </property>
+               <property name="text">
+                <string>RELY</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="RELYvalue">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="currentText">
+                <string>Высокий</string>
+               </property>
+               <property name="currentIndex">
+                <number>3</number>
+               </property>
+               <property name="modelColumn">
+                <number>0</number>
+               </property>
+               <item>
+                <property name="text">
+                 <string>Очень низкий</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Низкий</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Номинальный</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Высокий</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Очень высокий</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_6" stretch="1,5">
+             <item>
+              <widget class="QLabel" name="DATAlabel">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                 <weight>50</weight>
+                 <italic>true</italic>
+                 <bold>false</bold>
+                 <underline>false</underline>
+                 <strikeout>false</strikeout>
+                </font>
+               </property>
+               <property name="text">
+                <string>DATA</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="DATAvalue">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="currentText">
+                <string>Номинальный</string>
+               </property>
+               <property name="currentIndex">
+                <number>1</number>
+               </property>
+               <property name="modelColumn">
+                <number>0</number>
+               </property>
+               <item>
+                <property name="text">
+                 <string>Низкий</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Номинальный</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Высокий</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Очень высокий</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_7" stretch="1,5">
+             <item>
+              <widget class="QLabel" name="CPLXlabel">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                 <weight>50</weight>
+                 <italic>true</italic>
+                 <bold>false</bold>
+                 <underline>false</underline>
+                 <strikeout>false</strikeout>
+                </font>
+               </property>
+               <property name="text">
+                <string>CPLX</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="CPLXvalue">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="currentText">
+                <string>Номинальный</string>
+               </property>
+               <property name="currentIndex">
+                <number>2</number>
+               </property>
+               <property name="modelColumn">
+                <number>0</number>
+               </property>
+               <item>
+                <property name="text">
+                 <string>Очень низкий</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Низкий</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Номинальный</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Высокий</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Очень высокий</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <widget class="QGroupBox" name="groupBox_2">
+          <property name="font">
+           <font>
+            <pointsize>16</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="title">
+           <string>Атрибуты компьютера</string>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_6">
+           <property name="spacing">
+            <number>1</number>
+           </property>
+           <property name="leftMargin">
+            <number>1</number>
+           </property>
+           <property name="topMargin">
+            <number>1</number>
+           </property>
+           <property name="rightMargin">
+            <number>1</number>
+           </property>
+           <property name="bottomMargin">
+            <number>1</number>
+           </property>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_10" stretch="1,5">
+             <item>
+              <widget class="QLabel" name="TIMElabel">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                 <weight>50</weight>
+                 <italic>true</italic>
+                 <bold>false</bold>
+                 <underline>false</underline>
+                 <strikeout>false</strikeout>
+                </font>
+               </property>
+               <property name="text">
+                <string>TIME</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="TIMEvalue">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="currentText">
+                <string>Очень высокий</string>
+               </property>
+               <property name="currentIndex">
+                <number>2</number>
+               </property>
+               <property name="modelColumn">
+                <number>0</number>
+               </property>
+               <item>
+                <property name="text">
+                 <string>Номинальный</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Высокий</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Очень высокий</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_13" stretch="1,5">
+             <item>
+              <widget class="QLabel" name="STORlabel">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                 <weight>50</weight>
+                 <italic>true</italic>
+                 <bold>false</bold>
+                 <underline>false</underline>
+                 <strikeout>false</strikeout>
+                </font>
+               </property>
+               <property name="text">
+                <string>STOR</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="STORvalue">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="currentText">
+                <string>Номинальный</string>
+               </property>
+               <property name="currentIndex">
+                <number>0</number>
+               </property>
+               <property name="modelColumn">
+                <number>0</number>
+               </property>
+               <item>
+                <property name="text">
+                 <string>Номинальный</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Высокий</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Очень высокий</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_11" stretch="1,5">
+             <item>
+              <widget class="QLabel" name="VIRTlabel">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                 <weight>50</weight>
+                 <italic>true</italic>
+                 <bold>false</bold>
+                 <underline>false</underline>
+                 <strikeout>false</strikeout>
+                </font>
+               </property>
+               <property name="text">
+                <string>VIRT</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="VIRTvalue">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="currentText">
+                <string>Номинальный</string>
+               </property>
+               <property name="currentIndex">
+                <number>1</number>
+               </property>
+               <property name="modelColumn">
+                <number>0</number>
+               </property>
+               <item>
+                <property name="text">
+                 <string>Низкий</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Номинальный</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Высокий</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Очень высокий</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_12" stretch="1,5">
+             <item>
+              <widget class="QLabel" name="TURNlabel">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                 <weight>50</weight>
+                 <italic>true</italic>
+                 <bold>false</bold>
+                 <underline>false</underline>
+                 <strikeout>false</strikeout>
+                </font>
+               </property>
+               <property name="text">
+                <string>TURN</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="TURNvalue">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="currentText">
+                <string>Номинальный</string>
+               </property>
+               <property name="currentIndex">
+                <number>1</number>
+               </property>
+               <property name="modelColumn">
+                <number>0</number>
+               </property>
+               <item>
+                <property name="text">
+                 <string>Низкий</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Номинальный</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Высокий</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Очень высокий</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QGroupBox" name="groupBox_3">
+          <property name="font">
+           <font>
+            <pointsize>16</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="title">
+           <string>Атрибуты персонала</string>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_8">
+           <property name="spacing">
+            <number>1</number>
+           </property>
+           <property name="leftMargin">
+            <number>1</number>
+           </property>
+           <property name="topMargin">
+            <number>1</number>
+           </property>
+           <property name="rightMargin">
+            <number>1</number>
+           </property>
+           <property name="bottomMargin">
+            <number>1</number>
+           </property>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_14" stretch="1,5">
+             <item>
+              <widget class="QLabel" name="ACAPlabel">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                 <italic>true</italic>
+                 <underline>false</underline>
+                 <strikeout>false</strikeout>
+                </font>
+               </property>
+               <property name="text">
+                <string>ACAP</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="ACAPvalue">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="currentText">
+                <string>Очень высокий</string>
+               </property>
+               <property name="currentIndex">
+                <number>4</number>
+               </property>
+               <property name="modelColumn">
+                <number>0</number>
+               </property>
+               <item>
+                <property name="text">
+                 <string>Очень низкий</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Низкий</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Номинальный</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Высокий</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Очень высокий</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_15" stretch="1,5">
+             <item>
+              <widget class="QLabel" name="AEXPlabel">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                 <italic>true</italic>
+                 <underline>false</underline>
+                 <strikeout>false</strikeout>
+                </font>
+               </property>
+               <property name="text">
+                <string>AEXP</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="AEXPvalue">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="currentText">
+                <string>Очень высокий</string>
+               </property>
+               <property name="currentIndex">
+                <number>4</number>
+               </property>
+               <property name="modelColumn">
+                <number>0</number>
+               </property>
+               <item>
+                <property name="text">
+                 <string>Очень низкий</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Низкий</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Номинальный</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Высокий</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Очень высокий</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_16" stretch="1,5">
+             <item>
+              <widget class="QLabel" name="PCAPlabel">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                 <italic>true</italic>
+                 <underline>false</underline>
+                 <strikeout>false</strikeout>
+                </font>
+               </property>
+               <property name="text">
+                <string>PCAP</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="PCAPvalue">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="currentText">
+                <string>Очень высокий</string>
+               </property>
+               <property name="currentIndex">
+                <number>4</number>
+               </property>
+               <property name="modelColumn">
+                <number>0</number>
+               </property>
+               <item>
+                <property name="text">
+                 <string>Очень низкий</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Низкий</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Номинальный</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Высокий</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Очень высокий</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_17" stretch="1,5">
+             <item>
+              <widget class="QLabel" name="VEXPlabel">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                 <italic>true</italic>
+                 <underline>false</underline>
+                 <strikeout>false</strikeout>
+                </font>
+               </property>
+               <property name="text">
+                <string>VEXP</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="VEXPvalue">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="currentText">
+                <string>Высокий</string>
+               </property>
+               <property name="currentIndex">
+                <number>3</number>
+               </property>
+               <property name="modelColumn">
+                <number>0</number>
+               </property>
+               <item>
+                <property name="text">
+                 <string>Очень низкий</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Низкий</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Номинальный</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Высокий</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_18" stretch="1,5">
+             <item>
+              <widget class="QLabel" name="LEXPlabel">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                 <italic>true</italic>
+                 <underline>false</underline>
+                 <strikeout>false</strikeout>
+                </font>
+               </property>
+               <property name="text">
+                <string>LEXP</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="LEXPvalue">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="currentText">
+                <string>Высокий</string>
+               </property>
+               <property name="currentIndex">
+                <number>3</number>
+               </property>
+               <property name="modelColumn">
+                <number>0</number>
+               </property>
+               <item>
+                <property name="text">
+                 <string>Очень низкий</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Низкий</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Номинальный</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Высокий</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <widget class="QGroupBox" name="groupBox_4">
+          <property name="font">
+           <font>
+            <pointsize>16</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="title">
+           <string>Атрибуты проекта</string>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_9">
+           <property name="spacing">
+            <number>1</number>
+           </property>
+           <property name="leftMargin">
+            <number>1</number>
+           </property>
+           <property name="topMargin">
+            <number>1</number>
+           </property>
+           <property name="rightMargin">
+            <number>1</number>
+           </property>
+           <property name="bottomMargin">
+            <number>1</number>
+           </property>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_19" stretch="1,5">
+             <item>
+              <widget class="QLabel" name="MODPlabel">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                 <italic>true</italic>
+                 <underline>false</underline>
+                 <strikeout>false</strikeout>
+                </font>
+               </property>
+               <property name="text">
+                <string>MODP</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="MODPvalue">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="currentText">
+                <string>Номинальный</string>
+               </property>
+               <property name="currentIndex">
+                <number>2</number>
+               </property>
+               <property name="modelColumn">
+                <number>0</number>
+               </property>
+               <item>
+                <property name="text">
+                 <string>Очень низкий</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Низкий</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Номинальный</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Высокий</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Очень высокий</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_21" stretch="1,5">
+             <item>
+              <widget class="QLabel" name="TOOLlabel">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                 <italic>true</italic>
+                 <underline>false</underline>
+                 <strikeout>false</strikeout>
+                </font>
+               </property>
+               <property name="text">
+                <string>TOOL</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="TOOLvalue">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="currentText">
+                <string>Номинальный</string>
+               </property>
+               <property name="currentIndex">
+                <number>2</number>
+               </property>
+               <property name="modelColumn">
+                <number>0</number>
+               </property>
+               <item>
+                <property name="text">
+                 <string>Очень низкий</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Низкий</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Номинальный</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Высокий</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Очень высокий</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_20" stretch="1,5">
+             <item>
+              <widget class="QLabel" name="SCEDlabel">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                 <italic>true</italic>
+                 <underline>false</underline>
+                 <strikeout>false</strikeout>
+                </font>
+               </property>
+               <property name="text">
+                <string>SCED</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="SCEDvalue">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="currentText">
+                <string>Очень высокий</string>
+               </property>
+               <property name="currentIndex">
+                <number>4</number>
+               </property>
+               <property name="modelColumn">
+                <number>0</number>
+               </property>
+               <item>
+                <property name="text">
+                 <string>Очень низкий</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Низкий</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Номинальный</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Высокий</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Очень высокий</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_7">
+        <item>
+         <widget class="QGroupBox" name="groupBox_7">
+          <property name="font">
+           <font>
+            <pointsize>16</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="title">
+           <string>Общая информация о проекте</string>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_4">
+           <property name="spacing">
+            <number>5</number>
+           </property>
+           <property name="leftMargin">
+            <number>1</number>
+           </property>
+           <property name="topMargin">
+            <number>1</number>
+           </property>
+           <property name="rightMargin">
+            <number>1</number>
+           </property>
+           <property name="bottomMargin">
+            <number>1</number>
+           </property>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_9" stretch="1,5">
+             <item>
+              <widget class="QLabel" name="modeLabel">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                 <italic>true</italic>
+                 <underline>false</underline>
+                 <strikeout>false</strikeout>
+                </font>
+               </property>
+               <property name="text">
+                <string>Режим</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="modeValue">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="currentText">
+                <string>Промежуточный</string>
+               </property>
+               <property name="currentIndex">
+                <number>1</number>
+               </property>
+               <property name="modelColumn">
+                <number>0</number>
+               </property>
+               <item>
+                <property name="text">
+                 <string>Обычный</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Промежуточный</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Встроенный</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_22" stretch="3,1">
+             <item>
+              <widget class="QLabel" name="klocLabel">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                 <italic>true</italic>
+                </font>
+               </property>
+               <property name="text">
+                <string>KLOC</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QDoubleSpinBox" name="klocValue">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="maximum">
+                <double>999999999.000000000000000</double>
+               </property>
+               <property name="value">
+                <double>430.000000000000000</double>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_23" stretch="3,1">
+             <item>
+              <widget class="QLabel" name="salaryLabel">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                 <italic>true</italic>
+                </font>
+               </property>
+               <property name="text">
+                <string>Средняя зарплата (тыс руб)</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QDoubleSpinBox" name="salaryValue">
+               <property name="font">
+                <font>
+                 <pointsize>14</pointsize>
+                 <weight>50</weight>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="maximum">
+                <double>999999999.000000000000000</double>
+               </property>
+               <property name="value">
+                <double>150.000000000000000</double>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2" stretch="1,5,4">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <item>
+         <widget class="QPushButton" name="projectBtn">
+          <property name="text">
+           <string>Рассчитать проект</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="taskBtn">
+          <property name="text">
+           <string>Решить задачу</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_10">
+        <item>
+         <widget class="QGroupBox" name="groupBox_5">
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+            <weight>50</weight>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="title">
+           <string>Декомпозиция работ по созданию ПО</string>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_24">
+           <item>
+            <widget class="QTableWidget" name="budgetTable">
+             <property name="sizeAdjustPolicy">
+              <enum>QAbstractScrollArea::AdjustToContents</enum>
+             </property>
+             <attribute name="horizontalHeaderCascadingSectionResizes">
+              <bool>false</bool>
+             </attribute>
+             <attribute name="horizontalHeaderDefaultSectionSize">
+              <number>145</number>
+             </attribute>
+             <attribute name="horizontalHeaderHighlightSections">
+              <bool>false</bool>
+             </attribute>
+             <attribute name="horizontalHeaderMinimumSectionSize">
+              <number>24</number>
+             </attribute>
+             <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+              <bool>false</bool>
+             </attribute>
+             <attribute name="horizontalHeaderStretchLastSection">
+              <bool>false</bool>
+             </attribute>
+             <attribute name="verticalHeaderVisible">
+              <bool>true</bool>
+             </attribute>
+             <attribute name="verticalHeaderCascadingSectionResizes">
+              <bool>false</bool>
+             </attribute>
+             <attribute name="verticalHeaderHighlightSections">
+              <bool>false</bool>
+             </attribute>
+             <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+              <bool>false</bool>
+             </attribute>
+             <attribute name="verticalHeaderStretchLastSection">
+              <bool>false</bool>
+             </attribute>
+             <row>
+              <property name="text">
+               <string>Анализ требований</string>
+              </property>
+             </row>
+             <row>
+              <property name="text">
+               <string>Проектирование продукта</string>
+              </property>
+             </row>
+             <row>
+              <property name="text">
+               <string>Программирование</string>
+              </property>
+             </row>
+             <row>
+              <property name="text">
+               <string>Планирование тестирования</string>
+              </property>
+             </row>
+             <row>
+              <property name="text">
+               <string>Верификация и аттестация</string>
+              </property>
+             </row>
+             <row>
+              <property name="text">
+               <string>Канцелярия проекта</string>
+              </property>
+             </row>
+             <row>
+              <property name="text">
+               <string>Управление конфигурацией и обеспечение качества</string>
+              </property>
+             </row>
+             <row>
+              <property name="text">
+               <string>Создание руководств</string>
+              </property>
+             </row>
+             <row>
+              <property name="text">
+               <string>ИТОГО</string>
+              </property>
+              <property name="font">
+               <font>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+             </row>
+             <column>
+              <property name="text">
+               <string>Бюджет (%)</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>Человеко-месяцы</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>Затраты (тыс руб)</string>
+              </property>
+             </column>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_6">
+        <property name="font">
+         <font>
+          <pointsize>13</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="title">
+         <string>Распределение работ и времени по стадиям жизненного цикла</string>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_25">
+         <item>
+          <widget class="QTableWidget" name="projectTable">
+           <attribute name="horizontalHeaderVisible">
+            <bool>true</bool>
+           </attribute>
+           <attribute name="horizontalHeaderCascadingSectionResizes">
+            <bool>false</bool>
+           </attribute>
+           <attribute name="horizontalHeaderDefaultSectionSize">
+            <number>130</number>
+           </attribute>
+           <attribute name="horizontalHeaderHighlightSections">
+            <bool>false</bool>
+           </attribute>
+           <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+            <bool>false</bool>
+           </attribute>
+           <attribute name="horizontalHeaderStretchLastSection">
+            <bool>false</bool>
+           </attribute>
+           <attribute name="verticalHeaderVisible">
+            <bool>true</bool>
+           </attribute>
+           <attribute name="verticalHeaderCascadingSectionResizes">
+            <bool>false</bool>
+           </attribute>
+           <attribute name="verticalHeaderHighlightSections">
+            <bool>false</bool>
+           </attribute>
+           <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+            <bool>false</bool>
+           </attribute>
+           <attribute name="verticalHeaderStretchLastSection">
+            <bool>false</bool>
+           </attribute>
+           <row>
+            <property name="text">
+             <string>Планирование и определение требований</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>Проектирование продукта</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>Детальное проектирование</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>Кодирование и тестирование отдельных модулей</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>Интеграция и тестирование</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>ИТОГО (без планирования)</string>
+            </property>
+            <property name="font">
+             <font>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>ИТОГО</string>
+            </property>
+            <property name="font">
+             <font>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+           </row>
+           <column>
+            <property name="text">
+             <string>Трудозатраты (%)</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Трудозатраты</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Время (%)</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Время</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Сотрудники</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
