@@ -55,6 +55,9 @@
                  </item>
                  <item>
                   <widget class="QComboBox" name="factorSelectPREC">
+                   <property name="currentIndex">
+                    <number>2</number>
+                   </property>
                    <item>
                     <property name="text">
                      <string>Полное отсутствие прецедентов, полностью непредсказуемый проект</string>
@@ -245,7 +248,7 @@
                  <item>
                   <widget class="QComboBox" name="factorSelectPMAT">
                    <property name="currentIndex">
-                    <number>1</number>
+                    <number>0</number>
                    </property>
                    <item>
                     <property name="text">
@@ -333,7 +336,7 @@
                              <number>99999999</number>
                             </property>
                             <property name="value">
-                             <number>11</number>
+                             <number>1</number>
                             </property>
                            </widget>
                           </item>
@@ -354,7 +357,7 @@
                              <number>99999999</number>
                             </property>
                             <property name="value">
-                             <number>5</number>
+                             <number>4</number>
                             </property>
                            </widget>
                           </item>
@@ -373,6 +376,9 @@
                            <widget class="QSpinBox" name="screenFormHardInput">
                             <property name="maximum">
                              <number>99999999</number>
+                            </property>
+                            <property name="value">
+                             <number>1</number>
                             </property>
                            </widget>
                           </item>
@@ -510,7 +516,7 @@
                         <number>99999999</number>
                        </property>
                        <property name="value">
-                        <number>60000</number>
+                        <number>70000</number>
                        </property>
                       </widget>
                      </item>
@@ -643,7 +649,7 @@
                      <item>
                       <widget class="QComboBox" name="modelSelectPERS">
                        <property name="currentIndex">
-                        <number>2</number>
+                        <number>1</number>
                        </property>
                        <item>
                         <property name="text">
@@ -822,7 +828,7 @@
                      <item>
                       <widget class="QComboBox" name="modelSelectPREX">
                        <property name="currentIndex">
-                        <number>1</number>
+                        <number>2</number>
                        </property>
                        <item>
                         <property name="text">
@@ -964,7 +970,7 @@
                         <number>99999999</number>
                        </property>
                        <property name="value">
-                        <number>60000</number>
+                        <number>70000</number>
                        </property>
                       </widget>
                      </item>

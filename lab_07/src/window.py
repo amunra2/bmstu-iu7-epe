@@ -51,6 +51,8 @@ class Window(QMainWindow):
 
         # 2. Calculate
         resultDict = early_architecture(salary, parametersDict)
+        print(f"early_architecture: p = {resultDict['P']}")
+        print(f"early_architecture: employees = {resultDict['EMPLOYEES']}")
 
         # 3. Show result
         self.ui.resultArchitectureTable.setItem(0, 0, QTableWidgetItem(str(resultDict["WORK"])))
@@ -82,6 +84,8 @@ class Window(QMainWindow):
 
         # 2. Calculate
         resultDict = app_composition(salary, parametersDict)
+        print(f"app_composition: p = {resultDict['P']}")
+        print(f"app_composition: employees = {resultDict['EMPLOYEES']}")
 
         # 3. Show result
         self.ui.resultCompositionTable.setItem(0, 0, QTableWidgetItem(str(resultDict["WORK"])))

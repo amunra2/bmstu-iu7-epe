@@ -2,7 +2,7 @@
 # https://github.com/hamzreg
 
 from dataclasses import dataclass
-from math import prod
+from math import prod, ceil
 
 
 @dataclass
@@ -73,10 +73,12 @@ def app_composition(salary: float, parameters: dict):
     work = nop / PROD[parameters['PROD']]
     time = get_time(work, p)
     budget = salary * work
+    employees = work / time
 
     return {'P': p,
             'WORK': round(work, 2), 
             'TIME': round(time, 2), 
+            'EMPLOYEES': ceil(employees),
             'BUDGET': round(budget, 2)}
 
 def get_nop(forms: list, reports: list, modules: int, ruse: float):
@@ -100,13 +102,15 @@ def early_architecture(salary: float, parameters: dict):
     factors = get_factors(parameters['FACTORS'])
     p = get_p(factors)
 
-    work = 2.45 * earch * parameters['LOC'] / 1000 ** p
+    work = 2.45 * earch * (parameters['LOC'] / 1000) ** p
     time = get_time(work, p)
     budget = salary * work
+    employees = work / time
 
     return {'P': p,
             'WORK': round(work, 2), 
             'TIME': round(time, 2), 
+            'EMPLOYEES': ceil(employees),
             'BUDGET': round(budget, 2)}
 
 def get_multipliers(indexes: list):
